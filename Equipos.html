@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Equipos de la Fórmula 1 - 2025</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Orbitron', sans-serif;
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ff0000;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 36px;
+    }
+
+    .contenedor-equipos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin: 50px auto;
+      max-width: 1200px;
+    }
+
+    .tarjeta {
+      background-color: #111;
+      border: 2px solid #ff0000;
+      border-radius: 20px;
+      width: 300px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .tarjeta:hover {
+      transform: scale(1.05);
+    }
+
+    .tarjeta img {
+      width: 100%;
+      border-radius: 15px;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .tarjeta h3 {
+      color: #ff0000;
+      margin-top: 15px;
+    }
+
+    .tarjeta p {
+      font-size: 14px;
+      color: #ccc;
+    }
+
+    footer {
+      background-color: #ff0000;
+      text-align: center;
+      padding: 10px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🏎️ Equipos de la Fórmula 1</h1>
+
+  <div class="contenedor-equipos">
+    <div class="tarjeta">
+      <a href="equipo/redbull.html">
+        <img src="imagenes/redbull.jpg" alt="Red Bull Racing">
+        <h3>Red Bull Racing</h3>
+      </a>
+      <p>Con sede en Austria, Red Bull ha dominado los últimos años de la F1 con Max Verstappen y un diseño aerodinámico imbatible.</p>
+    </div>
+
+    <div class="tarjeta">
+      <a href="equipo/ferrari.html">
+        <img src="imagenes/ferrari.jpg" alt="Ferrari">
+        <h3>Scuderia Ferrari</h3>
+      </a>
+      <p>El equipo más histórico de la Fórmula 1. Conocido por su pasión italiana y una historia llena de títulos y leyendas.</p>
+    </div>
+
+    <div class="tarjeta">
+      <a href="equipo/mercedes.html">
+        <img src="imagenes/mercedes.jpg" alt="Mercedes AMG">
+        <h3>Mercedes AMG</h3>
+      </a>
+      <p>Potencia alemana. Dominó la era híbrida con Lewis Hamilton, destacándose por su precisión y tecnología avanzada.</p>
+    </div>
+
+    <div class="tarjeta">
+      <a href="equipo/mclaren.html">
+        <img src="imagenes/mclaren.jpg" alt="McLaren">
+        <h3>McLaren</h3>
+      </a>
+      <p>Con una rica historia británica, McLaren sigue siendo una potencia tradicional en la F1 con una gran base de fans.</p>
+    </div>
+
+    <div class="tarjeta">
+      <a href="equipo/astonmartin.html">
+        <img src="imagenes/astonmartin.jpg" alt="Aston Martin">
+        <h3>Aston Martin</h3>
+      </a>
+      <p>Regresó a la F1 con el objetivo de competir al más alto nivel, con Fernando Alonso como líder del equipo.</p>
+    </div>
+  </div>
+
+  <footer>
+    <marquee><strong>Sitio de Fórmula 1</strong></marquee>
+  </footer>
+
+</body>
+</html>
